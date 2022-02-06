@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Exercise 3 – Word Count</title>
+    </head>
+    <body>
+        <form>
+            <form enctype="multipart/form-data">
+                <input
+                    id="upload"
+                    type="file"
+                    accept="text/html"
+                    name="files[]"
+                />
+            </form>
+        </form>
+        <br />
+        <select name="" id="order">
+            <option value="fre">Frequency Order</option>
+            <option value="alp">Alphabetical Order</option>
+        </select>
+        <br />
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <th>Word</th>
+                    <th>Occurance</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div id="htmlP" style="display: none"></div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

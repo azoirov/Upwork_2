@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Dynamic Data Table</title>
+    </head>
+    <body>
+        <section>
+            <h1>Exercise 1 - Dynamic Data Table</h1>
+            <form action="" id="form">
+                <input
+                    type="number"
+                    id="temp"
+                    class="from"
+                    placeholder="Tempereture 1"
+                />
+                <input
+                    type="number"
+                    id="temp"
+                    class="to"
+                    placeholder="Tempereture 2"
+                />
+                <select name="" id="type">
+                    <option value="tocel">To Celcius</option>
+                    <option value="tofah">To Fahrenheit</option>
+                </select>
+                <button type="submit">Calculate</button>
+            </form>
+            <p class="error-text"></p>
+            <button class="asc order">Ascending Order</button>
+            <button class="desc order">Descending Order</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Celcius</th>
+                        <th>Fahrenheit</th>
+                    </tr>
+                </thead>
+                <tbody class="tBody"></tbody>
+            </table>
+        </section>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

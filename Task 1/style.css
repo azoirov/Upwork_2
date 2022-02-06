@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+form#form {
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+form#form input#temp {
+    flex: 1;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+.error-text {
+    color: red;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: aqua;
+}
+
+th,
+td {
+    padding: 5px 10px;
+}
+
+table {
+    display: none;
+}
+
+.alternative-row {
+    color: blueviolet;
+}
+
+button.order {
+    display: none;
+}
